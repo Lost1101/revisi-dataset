@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['gery-salut-coconut', 'indomie-mie-kocok-bandung', 'indomie-tori-miso', 'pilus-rendang', 'pocari-sweat', 'popmie-rasa-ayam', 'potabee-ayam-bakar', 'tango-tiramisu', 'teh-pucuk', 'ultramilk-full-cream']
+
+roboflow:
+  workspace: ta-htobz
+  project: dataset-ritel-indonesia-2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ta-htobz/dataset-ritel-indonesia-2/dataset/1
